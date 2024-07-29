@@ -3,7 +3,6 @@ import Skeleton from 'react-loading-skeleton';
 import 'react-loading-skeleton/dist/skeleton.css';
 import LoadingBar from 'react-top-loading-bar';
 
-
 const SkeletonNewsItem = () => {
     const loadingBarRef = useRef(null);
 
@@ -29,9 +28,9 @@ const SkeletonNewsItem = () => {
                     <p className="card-text">
                         <Skeleton count={3} />
                     </p>
-                    <a href="#" className="btn btn-dark btn-sm disabled">
+                    <button className="btn btn-dark btn-sm disabled">
                         <Skeleton width={`60px`} />
-                    </a>
+                    </button>
                 </div>
             </div>
         </div>
