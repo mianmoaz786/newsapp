@@ -28,7 +28,7 @@ const SkeletonNewsItem = () => {
                     <p className="card-text">
                         <Skeleton count={3} />
                     </p>
-                    <button className="btn btn-dark btn-sm disabled">
+                    <button className="btn btn-dark btn-sm disabled" aria-disabled="true">
                         <Skeleton width={`60px`} />
                     </button>
                 </div>
